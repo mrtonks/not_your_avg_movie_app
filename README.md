@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This app includes two main features:
 * Search movies
-* Add/remove movies from the favourite list
+* Add/remove movies from the favourite movies list
 
 ## Demo video
 
