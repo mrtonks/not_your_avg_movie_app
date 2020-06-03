@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import {
+  NavBar,
+  Search,
+  Favourites
+} from './Components';
+import Error from './Error';
 import './App.css';
+
+// import 'jquery';
+// import 'bootstrap';
+
+// window.$ = window.jQuery = require('jquery')
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      <BrowserRouter>
+        <NavBar />
+        <Switch>
+          <Route path="/" component={Search} exact />
+          <Route path="/favourites" component={Favourites} />
+          <Route component={Error} />
+        </Switch>
+      </BrowserRouter>
+    </main>
   );
 }
 

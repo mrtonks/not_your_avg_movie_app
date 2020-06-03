@@ -1,0 +1,8 @@
+table thead tr {
+  background-color: #a9e5bb;
+}
+
+#star-icon {
+  cursor: pointer;
+  color: #E3170A;
+}

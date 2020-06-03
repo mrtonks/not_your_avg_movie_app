@@ -1,0 +1,30 @@
+nav.navbar {
+  background-color: #F4B860;
+  font-family: 'Dancing Script', cursive;
+  min-height: 10vh;
+}
+
+nav.navbar .navbar-brand {
+  font-size: 2rem !important;
+}
+
+@media only screen and (max-width: 512px) {
+  nav.navbar .navbar-brand {
+    font-size: 1.7rem !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  nav.navbar .navbar-brand {
+    font-size: 1.3rem !important;
+  }
+}
+
+nav .navbar-nav {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+#navBarFull {
+  place-content: flex-end;
+}

@@ -1,0 +1,8 @@
+.row.row-search-initial {
+  height: 50vh !important;
+}
+
+input.form-control.search-initial {
+  width: 40%;
+  display: inline-flex;
+}
