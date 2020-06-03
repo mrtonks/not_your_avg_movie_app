@@ -1,4 +1,14 @@
+# Not Your Average Movies App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This app includes two main features:
+* Search movies
+* Add/remove movies from the favourite list
+
+## Demo video
+
+https://youtu.be/__vYY-ssPUw
 
 ## Available Scripts
 
